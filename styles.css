@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul.navbar {
+  list-style: none;
+  background-color: #ccc;
+  width: 20%;
+}
+
+ul.navbar li.item {
+  width: 100%;
+  line-height: 30px;
+  text-align: center;
+  padding: 2px 0 0 0;
+  border-bottom: 1px solid #000;
+}
+
+ul.navbar li.item a.link {
+  padding: 5px;
+  text-decoration: none;
+  color: #000;
+}
+
+ul.navbar li.item:hover {
+  background-color: #ededed;
+}
+
+ul.navbar li.item:hover a.link {
+  color: #ff0000;
+  text-decoration: underline;
+}
+
+ul.mh {
+  display: flex;
+  width: 100%;
+}
